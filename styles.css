@@ -52,7 +52,7 @@ body {
     position: relative;
     z-index: 2;
 }
-.quotes {
+.new-quotes {
     background-color: rgb(255, 253, 208);
     border: 10px solid rgb(255, 253, 208);
     border-radius: 10px;
@@ -61,7 +61,7 @@ body {
     margin-bottom: 10px;
     white-space: nowrap;
 }
-.quotes:hover {
+.new-quotes:hover {
     border: 10px solid rgb(211, 70, 103);
     border-radius: 10px;
     padding: 5px 10px;
@@ -70,7 +70,7 @@ body {
     cursor: pointer;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-.quotes:active {
+.new-quotes:active {
     color: rgb(221, 79, 103);
 
 }
