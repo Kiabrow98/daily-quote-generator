@@ -1,0 +1,100 @@
+body {
+    background-color:rgb(255, 253, 208);
+}
+#title {
+    color: rgb(134, 169, 111);
+    text-align: center;
+}
+#quote-container {
+    border: 15px solid rgb(134, 169, 111);
+    border-radius: 10px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 50px auto;
+    width: 45%;
+    background-color: rgb(134, 169, 111);
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+#quote {
+    display: inline-block;
+    background-color: rgb(255, 250, 134);
+    margin-top: -60px;
+    font-size: 16px;
+    padding: 10px 165px;
+    text-align: center;
+    font-style: italic;
+    border: 0px,solid, rgb(255, 253, 208);
+    border-radius: 10px;
+    padding-bottom: 200px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+.quote-buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+.quotes {
+    background-color: rgb(255, 253, 208);
+    border: 10px solid rgb(255, 253, 208);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.quotes:hover {
+    border: 10px solid rgb(211, 70, 103);
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: rgb(211, 70, 103);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.quotes:active {
+    color: rgb(221, 79, 103);
+
+}
+
+.favorites {
+    background-color: rgb(134, 169, 111);
+    color: pink;
+    border: none;
+    font-size: 50px;
+}
+.favorites:hover {
+    color: rgb(221, 79, 103);
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.favorites:active {
+    color: rgb(221, 79, 103)
+}
+
+.about-me {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-top: 20px;
+}
